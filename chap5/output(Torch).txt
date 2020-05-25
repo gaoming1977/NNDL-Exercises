@@ -1,0 +1,37 @@
+			============= MODEL TRAINING BEGIN =============
+maxIter:  5  learning rate:  0.001
+epoch 0 , batch 0 : loss 2.3019743 ; accuracy 0.15
+epoch 0 , batch 100 : loss 1.7675719 ; accuracy 0.69
+epoch 0 , batch 200 : loss 1.6473894 ; accuracy 0.81
+epoch 0 , batch 300 : loss 1.5964372 ; accuracy 0.87
+epoch 0 , batch 400 : loss 1.6114682 ; accuracy 0.85
+epoch 0 , batch 500 : loss 1.5720608 ; accuracy 0.89
+
+epoch  0  accuracy 0.8331666677445173
+
+epoch 1 , batch 0 : loss 1.60776 ; accuracy 0.86
+epoch 1 , batch 100 : loss 1.5518106 ; accuracy 0.91
+epoch 1 , batch 200 : loss 1.5192419 ; accuracy 0.94
+epoch 1 , batch 300 : loss 1.4761837 ; accuracy 0.99
+epoch 1 , batch 400 : loss 1.4910741 ; accuracy 0.97
+epoch 1 , batch 500 : loss 1.4894272 ; accuracy 0.97
+
+epoch  1  accuracy 0.9460166732470194
+
+epoch 2 , batch 0 : loss 1.4712619 ; accuracy 0.99
+epoch 2 , batch 100 : loss 1.4848598 ; accuracy 0.98
+epoch 2 , batch 200 : loss 1.4827689 ; accuracy 0.98
+epoch 2 , batch 300 : loss 1.4613382 ; accuracy 1.0
+epoch 2 , batch 400 : loss 1.4712259 ; accuracy 0.99
+epoch 2 , batch 500 : loss 1.489543 ; accuracy 0.97
+
+epoch  2  accuracy 0.9833166782061259
+
+			Iteration Terminated!!!
+epoch 2 : loss 1.4703087 ; accuracy 0.9833166782061259
+Final training accuracy:  0.99  Time elapsed:  689.6702747344971  seconds
+			============= MODEL TRAINING FINISHED =============
+
+Final test dataset accuracy:  0.98802376
+
+Process finished with exit code 0
