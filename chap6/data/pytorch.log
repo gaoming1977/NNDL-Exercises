@@ -1,0 +1,225 @@
+C:\Users\gaoming\AppData\Local\Programs\Python\Python38\python.exe C:/g.Programs/Python/nndlLabs/chap6/torch_rnn.py
+
+		Chapter6. Recurrent Neural Network, RNN exercise (PyTorch) 
+STEP 1. Load training data
+STEP 2. Training model
+STEP 3: Generate text by model
+other, bye-bye !
+please input step:1
+--- begin parse dataset ---
+total terms count is:  6257
+--- end parse dataset ---
+please input step:2
+================= Model Summary =================
+
+----------------- Embedding Layer -----------------
+Sequential(
+  (0): Embedding(6257, 64)
+)
+
+----------------- RNN Layer[ GRU ] -----------------
+Sequential(
+  (0): GRU(64, 1024, batch_first=True)
+)
+
+----------------- FNN Layer -----------------
+Sequential(
+  (0): Linear(in_features=1024, out_features=6257, bias=True)
+)
+----------------- Optimizer -----------------
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+
+Parameter Group 2
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.001
+    weight_decay: 0
+)
+
+===============================================
+
+----------------- epoch  0  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  8.773184 ; accuracy  3.3320004e-05
+batch 10 : loss  4.7864447 ; accuracy  0.46508065
+batch 20 : loss  4.038446 ; accuracy  0.4655471
+batch 30 : loss  3.9013464 ; accuracy  0.4620485
+batch 40 : loss  3.831184 ; accuracy  0.46824604
+batch 50 : loss  3.798705 ; accuracy  0.47164467
+batch 60 : loss  3.6968966 ; accuracy  0.48230708
+batch 70 : loss  3.6700358 ; accuracy  0.48443955
+batch 80 : loss  3.6981192 ; accuracy  0.48387313
+batch 90 : loss  3.6023223 ; accuracy  0.49390244
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  3.5987318 ; accuracy  0.49320272
+----------------- epoch  0  -----------------------
+
+----------------- epoch  1  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  3.5987134 ; accuracy  0.49320272
+batch 10 : loss  3.6330163 ; accuracy  0.48763826
+batch 20 : loss  3.6302564 ; accuracy  0.4860056
+batch 30 : loss  3.630058 ; accuracy  0.48247367
+batch 40 : loss  3.5448756 ; accuracy  0.49643475
+batch 50 : loss  3.6014657 ; accuracy  0.4858057
+batch 60 : loss  3.5626438 ; accuracy  0.49020392
+batch 70 : loss  3.530583 ; accuracy  0.49710116
+batch 80 : loss  3.5694523 ; accuracy  0.49176997
+batch 90 : loss  3.561109 ; accuracy  0.49290285
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  3.6392813 ; accuracy  0.47980806
+----------------- epoch  1  -----------------------
+
+----------------- epoch  2  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  3.4940205 ; accuracy  0.49630147
+batch 10 : loss  3.4325812 ; accuracy  0.5076636
+batch 20 : loss  3.4318187 ; accuracy  0.5054978
+batch 30 : loss  3.4692109 ; accuracy  0.5011329
+batch 40 : loss  3.4799252 ; accuracy  0.4972011
+batch 50 : loss  3.4871962 ; accuracy  0.49803412
+batch 60 : loss  3.5124738 ; accuracy  0.49320272
+batch 70 : loss  3.4290712 ; accuracy  0.5051313
+batch 80 : loss  3.416938 ; accuracy  0.506564
+batch 90 : loss  3.4626088 ; accuracy  0.49870053
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  3.4598782 ; accuracy  0.4988338
+----------------- epoch  2  -----------------------
+
+----------------- epoch  3  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  3.4491177 ; accuracy  0.49530187
+batch 10 : loss  3.5487795 ; accuracy  0.48127416
+batch 20 : loss  3.3706584 ; accuracy  0.5056311
+batch 30 : loss  3.4007246 ; accuracy  0.5006997
+batch 40 : loss  3.3694937 ; accuracy  0.50879645
+batch 50 : loss  3.4313037 ; accuracy  0.49860057
+batch 60 : loss  3.4591937 ; accuracy  0.49243635
+batch 70 : loss  3.327836 ; accuracy  0.51226175
+batch 80 : loss  3.4442832 ; accuracy  0.49087033
+batch 90 : loss  3.3489425 ; accuracy  0.5068973
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  3.3593285 ; accuracy  0.5061642
+----------------- epoch  3  -----------------------
+
+----------------- epoch  4  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  3.3639395 ; accuracy  0.499167
+batch 10 : loss  3.3934712 ; accuracy  0.49526855
+batch 20 : loss  3.190291 ; accuracy  0.52339065
+batch 30 : loss  3.3322706 ; accuracy  0.5025656
+batch 40 : loss  3.336348 ; accuracy  0.5002999
+batch 50 : loss  3.254572 ; accuracy  0.51229507
+batch 60 : loss  3.2865508 ; accuracy  0.50756365
+batch 70 : loss  3.2508612 ; accuracy  0.5126616
+batch 80 : loss  3.3642917 ; accuracy  0.49846727
+batch 90 : loss  3.410016 ; accuracy  0.4895375
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  3.2563396 ; accuracy  0.5126949
+----------------- epoch  4  -----------------------
+
+----------------- epoch  5  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  3.1058311 ; accuracy  0.52885514
+batch 10 : loss  3.235764 ; accuracy  0.50936294
+batch 20 : loss  3.1571314 ; accuracy  0.5190924
+batch 30 : loss  3.0720387 ; accuracy  0.5315207
+batch 40 : loss  3.1211097 ; accuracy  0.52242434
+batch 50 : loss  3.205992 ; accuracy  0.5117953
+batch 60 : loss  3.2821872 ; accuracy  0.5013328
+batch 70 : loss  3.2211397 ; accuracy  0.50719714
+batch 80 : loss  3.0433607 ; accuracy  0.5334866
+batch 90 : loss  3.0890212 ; accuracy  0.52722245
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  3.1480434 ; accuracy  0.5161602
+----------------- epoch  5  -----------------------
+
+----------------- epoch  6  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  3.1432152 ; accuracy  0.5093296
+batch 10 : loss  3.1197507 ; accuracy  0.5084966
+batch 20 : loss  3.0760095 ; accuracy  0.51829267
+batch 30 : loss  3.0251403 ; accuracy  0.5263228
+batch 40 : loss  3.0017803 ; accuracy  0.53322005
+batch 50 : loss  3.1379943 ; accuracy  0.5096295
+batch 60 : loss  3.0647843 ; accuracy  0.5214581
+batch 70 : loss  2.9649599 ; accuracy  0.53371984
+batch 80 : loss  2.9295864 ; accuracy  0.53811806
+batch 90 : loss  2.961755 ; accuracy  0.5348194
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  2.9306242 ; accuracy  0.53795147
+----------------- epoch  6  -----------------------
+
+----------------- epoch  7  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  3.0122573 ; accuracy  0.52025855
+batch 10 : loss  2.9944856 ; accuracy  0.52085835
+batch 20 : loss  2.9601693 ; accuracy  0.5257897
+batch 30 : loss  2.8904498 ; accuracy  0.5347528
+batch 40 : loss  2.9567118 ; accuracy  0.52668935
+batch 50 : loss  2.9474738 ; accuracy  0.5309876
+batch 60 : loss  2.9195487 ; accuracy  0.5327536
+batch 70 : loss  2.898438 ; accuracy  0.5367853
+batch 80 : loss  2.9863744 ; accuracy  0.52172464
+batch 90 : loss  3.0033221 ; accuracy  0.51935893
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  2.8947437 ; accuracy  0.53142077
+----------------- epoch  7  -----------------------
+
+----------------- epoch  8  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  2.9110253 ; accuracy  0.5227243
+batch 10 : loss  2.8602936 ; accuracy  0.53685194
+batch 20 : loss  2.8800483 ; accuracy  0.53358656
+batch 30 : loss  2.8095663 ; accuracy  0.5393509
+batch 40 : loss  2.8618839 ; accuracy  0.52992135
+batch 50 : loss  2.8990147 ; accuracy  0.5268226
+batch 60 : loss  2.813708 ; accuracy  0.54194987
+batch 70 : loss  2.7755773 ; accuracy  0.54701453
+batch 80 : loss  2.9395733 ; accuracy  0.5229575
+batch 90 : loss  2.8802786 ; accuracy  0.53225374
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  2.9833975 ; accuracy  0.51246166
+----------------- epoch  8  -----------------------
+
+----------------- epoch  9  -----------------------
+			============= MODEL TRAINING BEGIN =============
+batch 0 : loss  2.738577 ; accuracy  0.545815
+batch 10 : loss  2.7659771 ; accuracy  0.5426163
+batch 20 : loss  2.7455797 ; accuracy  0.54394907
+batch 30 : loss  2.8661156 ; accuracy  0.5264894
+batch 40 : loss  2.7968957 ; accuracy  0.5389511
+batch 50 : loss  2.7656298 ; accuracy  0.5436825
+batch 60 : loss  2.8440528 ; accuracy  0.53305346
+batch 70 : loss  2.7158551 ; accuracy  0.55011326
+batch 80 : loss  2.858503 ; accuracy  0.5263228
+batch 90 : loss  2.7416372 ; accuracy  0.5480141
+---- save model ------
+			============= MODEL TRAINING FINISHED =============
+loss  2.8809054 ; accuracy  0.5267893
+----------------- epoch  9  -----------------------
+
+please input step:
